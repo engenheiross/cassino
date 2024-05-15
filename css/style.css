@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+
 #header {
     display: flex;
     justify-content: space-between;
@@ -10,6 +11,7 @@
     flex-direction: row;
     background-color: orange;
     height: 2rem;
+    padding-inline: 8rem;
 
 }
 
@@ -18,7 +20,7 @@ nav, ul {
     justify-content: center;
     align-items: center;
     list-style: none;
-    padding-right: 8rem;
+
     gap: 20px;
 }
 li, a {
@@ -31,12 +33,13 @@ a:hover {
 }
 
 #jogo {
+    margin-top: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#roleta {
+#roleta {   
     display: flex;
     overflow-x:scroll;
 }
@@ -60,7 +63,9 @@ a:hover {
     background-color: green;
 }
 .pointer {
+    position: relative;
+    right: 300px;
     width: 1rem;
     height: 2rem;
-    background-color: white;
+    background-color: orange;
 }
