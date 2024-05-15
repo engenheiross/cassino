@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: orange;
+    height: 2rem;
+
+}
+
+nav, ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-right: 8rem;
+    gap: 20px;
+}
+li, a {
+    text-decoration: none;
+    transition: 1s;
+}
+a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#jogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#roleta {
+    display: flex;
+    overflow-x:scroll;
+}
+
+.number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4rem;
+    height: 4rem;
+    font-size: 24px;
+    color: white;
+}
+.red {
+    background-color: red;
+}
+.black {
+    background-color: black;
+}
+.green {
+    background-color: green;
+}
+.pointer {
+    width: 1rem;
+    height: 2rem;
+    background-color: white;
+}
