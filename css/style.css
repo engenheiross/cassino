@@ -35,13 +35,14 @@ a:hover {
 #jogo {
     margin-top: 2rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 #roleta {   
     display: flex;
-    overflow-x:scroll;
+    flex-direction: row;
 }
 
 .number {

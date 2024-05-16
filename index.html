@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="shortcut-icon">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
 </head>
 <body>
     <section id="header">
@@ -18,43 +20,57 @@
             </ul>
     </section>
 
-    <section id="jogo">
-        <div id="roleta">
-            <div class="number red">
+    <section id="jogo" class="owl-carousel owl-theme owl-loaded">
+        <div id="roleta" class="owl-stage">
+            <div class="number red owl-item">
                 5
             </div>
-            <div class="number black">
+            <div class="number black owl-item">
                 10
             </div>
-            <div class="number red">
+            <div class="number red owl-item">
                 5
             </div>
-            <div class="number black">
+            <div class="number black owl-item">
                 10
             </div>
-            <div class="number red">
+            <div class="number red owl-item">
                 5
             </div>
-            <div class="number black">
+            <div class="number black owl-item">
                 10
             </div>
-            <div class="number red">
+            <div class="number red owl-item">
                 5
             </div>
-            <div class="number black">
+            <div class="number black owl-item">
                 10
             </div>
-            <div class="number red">
+            <div class="number red owl-item">
                 5
             </div>
-            <div class="number black">
+            <div class="number black owl-item">
+                15
+            </div>
+            <div class="number black owl-item">
+                15
+            </div>
+            <div class="number black owl-item">
+                15
+            </div>
+            <div class="number black owl-item">
                 15
             </div>
 
-            <div class="pointer"></div>
+            <!--<div class="pointer"></div>!-->
         </div>
-        </div>
-        </div>
+        
+        <button id="rodar" onclick="roll()">Rodar</div>
+
+
     </section>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="dist/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
