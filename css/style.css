@@ -32,19 +32,6 @@ a:hover {
     text-decoration: underline;
 }
 
-#jogo {
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#roleta {   
-    display: flex;
-    flex-direction: row;
-}
-
 .number {
     display: flex;
     align-items: center;
@@ -69,4 +56,8 @@ a:hover {
     width: 1rem;
     height: 2rem;
     background-color: orange;
+}
+
+#rodar {
+    padding: 20px;
 }
