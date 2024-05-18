@@ -43,15 +43,19 @@ a:hover {
 }
 .red {
     background-color: rgb(200,0,0);
-    color: white;
 }
 .black {
     background-color: rgb(40, 40, 40);
-    color: white;
 }
 .green {
     background-color: rgb(0, 140, 0);
-    color: white;
+}
+
+.plus {
+    color: green;
+}
+.minus {
+    color: red;
 }
 
 .pointer {
@@ -72,6 +76,7 @@ a:hover {
     font-size: 24px;
     transition: 1s;
     border: none;
+    color: white;
 }
 
 .rodar:hover {
@@ -113,4 +118,19 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#floating-text {
+    display: inline-block;
+    animation: float-up 1s 1 linear forwards;
+    opacity: 100%;
+}
+@keyframes float-up {
+    0% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+        opacity: 0%;
+    }
 }

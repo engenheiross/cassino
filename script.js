@@ -48,7 +48,7 @@ jQuery(function ($) {
             return false;
         }
         saldo -= bet_value;
-        $balance.html("Saldo: $" + saldo);
+        $balance.html("Saldo: $" + saldo + "<span id=\"floating-text\" class=\"minus\">-" + bet_value + "</span>");
 
         stoping = false;
         // Numero aleatório entre 0 e 14
@@ -79,11 +79,13 @@ jQuery(function ($) {
                 $('#status').html("O número " + item + "foi rodado!");
                 if(item == 0) {
                     saldo += (bet_value * 14);
+                    $balance.html("Saldo: $" + saldo + "<span id=\"floating-text\" class=\"plus\">+" + (bet_value * 14) + "</span>");
                 }
                 else if(bet_color == "red" && item <= 7 || bet_color == "black" && item > 7) {
                     saldo += (bet_value * 2);
+                    $balance.html("Saldo: $" + saldo + "<span id=\"floating-text\" class=\"plus\">+" + (bet_value * 2) + "</span>");
                 }
-                $balance.html("Saldo: $" + saldo);
+                
 
                 $owl.trigger('stop.owl.autoplay');
                 $('.rodar').removeAttr('disabled');
