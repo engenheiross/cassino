@@ -42,22 +42,75 @@ a:hover {
     color: white;
 }
 .red {
-    background-color: red;
+    background-color: rgb(200,0,0);
+    color: white;
 }
 .black {
-    background-color: black;
+    background-color: rgb(40, 40, 40);
+    color: white;
 }
 .green {
-    background-color: green;
-}
-.pointer {
-    position: relative;
-    right: 300px;
-    width: 1rem;
-    height: 2rem;
-    background-color: orange;
+    background-color: rgb(0, 140, 0);
+    color: white;
 }
 
-#rodar {
+.pointer {
+    position: absolute;
+    left: 952px;
+    justify-content: center;
+    width: 1rem;
+    height: 1.5rem;
+    z-index: 1000;
+    background-color: orange;
+
+    visibility: hidden;
+}
+
+.rodar {
     padding: 20px;
+    width: 8rem;
+    font-size: 24px;
+    transition: 1s;
+    border: none;
+}
+
+.rodar:hover {
+    cursor: pointer;
+    filter:brightness(1.75);
+}
+.rodar:disabled {
+    filter: brightness(0.8);
+}
+
+#status {
+    font-size: 24px;
+    height: 2rem;
+    padding-bottom: 20px;
+}
+
+#bet-input {
+
+}
+
+#bet-section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#bet {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#bet p {
+    padding-top: 10px;
+    font-size: 16px;
+}
+#bet-options {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

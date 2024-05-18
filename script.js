@@ -1,9 +1,16 @@
 var stoping = false;
 var itemSelected = 0;
 
+let bet = 0;
+let saldo = 10000;
+
+
 jQuery(function ($) {
     var $owl = $('.owl-carousel');
+    var $balance = $('#balance');
     
+    $balance.html("Saldo: $" + saldo);
+
     // Inicializando o Owl Carousel
     $('.owl-carousel').owlCarousel({
         center: true,
@@ -28,13 +35,21 @@ jQuery(function ($) {
     });
 
     // Clicar no botão de Rodar
-    $('#rodar').click(function (e) {
+    $('.rodar').click(function (e) {
         e.preventDefault();
+        bet =  $('#bet-input').val();
+        if (Number.isInteger(parseInt(bet)) == false) {
+            $('#status').html("Aposta inválida");
+            return false;
+        }
+
+        saldo -= bet;
+
         stoping = false;
         // Numero aleatório entre 0 e 14
         itemSelected = Math.floor((Math.random() * 14));
-        var $jump = $(this);
-        $jump.html('Rodando ...');
+        var $jump = $('.rodar');
+        $('#status').html("Rodando..."); //Atualizando status da roleta
         $jump.attr('disabled', 'disabled');
         // Trigger autoplay owl
         $owl.trigger('play.owl.autoplay', [100]);
@@ -55,9 +70,16 @@ jQuery(function ($) {
             console.log(element);
             if (item == itemSelected) {
                 // Se o elemento atual for igual ao numero random, parar a roleta
+                $('#status').html("O número " + item + "foi rodado!");
+                if(item == "0") {
+                    saldo += (bet * 14);
+                }
+                else {
+                    saldo += (bet * 2);
+                }
+
                 $owl.trigger('stop.owl.autoplay');
-                $('#rodar').html('Jump');
-                $('#rodar').removeAttr('disabled');
+                $('.rodar').removeAttr('disabled');
             }
         }
     });
