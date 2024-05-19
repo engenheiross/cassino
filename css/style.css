@@ -4,8 +4,8 @@
 }
 
 body {
-    overflow-x: hidden;
     background-color: #FF8A08;
+    overflow-x: hidden;
 }
 
 #header {
@@ -28,6 +28,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #FF6500;
+    padding: 20px;
 }
 #brand p {
     font-weight: bold;
@@ -63,6 +64,7 @@ a:hover {
     grid-template-columns: 15% 1fr;
     grid-template-rows: 1fr;
     min-width: 100%;
+    
 }
 
 #cassino {
@@ -116,8 +118,8 @@ a:hover {
     align-items: center;
     justify-content: center;
     width: 4rem;
-    height: 4rem;
-    font-size: 24px;
+    height: 8rem;
+    font-size: 36px;
     color: white;
 }
 .red {
@@ -151,7 +153,7 @@ a:hover {
 
 .rodar {
     padding: 20px;
-    width: 8rem;
+    width: 16rem;
     font-size: 24px;
     transition: 1s;
     border: none;
@@ -184,7 +186,10 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 4rem;
+
     width: 22%;
+
 }
 #bet {
     padding: 10px;
@@ -198,7 +203,7 @@ a:hover {
 #bet-options {
     padding: 20px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
