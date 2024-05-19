@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/little-tigre.webp">
+    <title>Tigre Jogos</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/auth.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="brand" onclick=voltar()>
+            <img id="logo" src="./img/little-tigre.webp" alt="little tigre">
+            <p>GAME TIGER</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a>Ajuda</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div id="content">
+        <div id="auth-form">
+            <p>Login: <input id="username" type="text"></p>
+            <p>Senha: <input id="password" type="password"></p>
+            <button id="login-btn">Entrar</button>
+            <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </div>
+    </div>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="auth.js"></script>
+</body>

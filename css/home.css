@@ -1,13 +1,4 @@
-#content {
-    padding: 4rem;
-    display: flex;
-    flex-direction: column;
-    height: calc(100vh - 4rem);
-    justify-content: flex-start;
-    align-items: center;
-    
-    gap: 40px;
-}
+
 
 p {
     font-size: 48px;
