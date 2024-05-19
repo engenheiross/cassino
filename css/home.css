@@ -1,0 +1,32 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 4rem);
+    justify-content: center;
+    align-items: center;
+    
+    gap: 40px;
+}
+
+p {
+    font-size: 48px;
+}
+
+#btn {
+    width: 16rem;
+    height: 8rem;
+    font-size: 48px;
+
+    box-sizing: border-box;
+    box-shadow: 10px 10px #FF8A08;
+    border-radius: 20%;
+
+    background-color: #FF6500;
+
+    transition: 1s;
+}
+
+#btn:hover {
+    background-color: #FF8A08;
+    cursor: pointer;
+}
