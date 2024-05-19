@@ -1,0 +1,96 @@
+#perguntas {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.perguntas {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    background-color: #FF8A08;
+    padding: 20px;
+
+}
+.resposta {
+    width: 100%;
+    background-color: #C40C0C;
+
+    transition: 1s;
+}
+.resposta:hover {
+    background-color: #FF8A08;
+}
+.respostas {
+    width: 100%;
+    
+
+}
+.respostas:hover{
+    cursor: pointer;
+}
+.respostas p, input {
+    width: 100%;
+    padding: 20px;
+    height: 4rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    font-size: 24px;
+
+    border-bottom: 2px;
+}
+.respostas input {
+    padding-right: 100px;
+}
+#correta {
+    background-color: #C40C0C;
+}
+
+#correta:active {
+    background-color: green;
+}
+#botoes {
+    display: flex;
+}
+#botao1 {
+    visibility: visible;
+    display: flex;
+    font-size: 16px;
+    background-color: #C40C0C;
+    padding: 20px;
+}
+
+#check {
+    width: 20px;
+    height: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#quiz {
+    display: flex;
+    flex-direction: column;
+    background-color: #FF6500;
+}
+/*#quiz h3 {
+
+}*/
+.acertos {
+    color: rgb(0, 140, 0);
+}
+
+.verde {
+    color: rgb(0, 140, 0);
+}
+.amarelo {
+    color: yellow;
+}
+.vermelho {
+    color: rgb(200,0,0);
+}

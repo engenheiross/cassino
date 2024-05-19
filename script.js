@@ -7,6 +7,7 @@ let saldo = 10000;
 
 
 jQuery(function ($) {
+
     var $owl = $('.owl-carousel');
     var $balance = $('#balance');
     
