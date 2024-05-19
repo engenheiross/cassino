@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #FF8A08;
+    /* background-color: #FF8A08; */
     overflow-x: hidden;
 }
 
@@ -28,7 +28,6 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #FF6500;
-    padding: 20px;
 }
 #brand p {
     font-weight: bold;
@@ -82,7 +81,7 @@ a:hover {
 
 #sidebar {
     background-color: #FF6500;
-    height: 100vh;
+    height: calc(100vh - 4rem);
     
     display: flex;
     flex-direction: column;
@@ -205,6 +204,15 @@ a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+#disclaimer {
+    position: absolute;
+    bottom: 0px;
+    margin-top: 16rem;
+    width: 85vw;
+
+    background-color: #FF8A08;
 }
 
 #floating-text {
