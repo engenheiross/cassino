@@ -18,3 +18,7 @@ button {
     width: 4rem;
 }
 
+#auth-form a {
+    font-size: 14px;
+}
+
