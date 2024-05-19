@@ -6,6 +6,8 @@
 body {
     /* background-color: #FF8A08; */
     overflow-x: hidden;
+
+    background-image: linear-gradient(to left, #FF6500, #FF8A08);
 }
 
 #header {

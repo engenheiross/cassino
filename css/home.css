@@ -1,8 +1,9 @@
 #content {
+    padding: 4rem;
     display: flex;
     flex-direction: column;
     height: calc(100vh - 4rem);
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     
     gap: 40px;

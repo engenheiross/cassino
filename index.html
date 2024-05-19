@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="/img/little-tigre.webp">
     <title>Tigre Jogos</title>
+    <link rel="stylesheet" href="dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <div id="header">
         <div id="brand">
@@ -19,15 +25,71 @@
                 <li><a>Início</a></li>
                 <li><a>Login</a></li>
             </ul>
-        </div>
-
-    <div id="content">
-
-        <p>Faça login para jogar.</p>
-        
-        <button id="btn">Entrar</button>
-
     </div>
-    
+
+    <section id="jogo" class="owl-carousel owl-theme owl-loaded">
+        <div class="owl-stage-outer">
+            <div id="roleta" class="owl-stage">
+                <div class="number green owl-item">
+                    0
+                </div>
+                <div class="number black owl-item">
+                    14
+                </div>
+                <div class="number red owl-item">
+                    1
+                </div>
+                <div class="number black owl-item">
+                    13
+                </div>
+                <div class="number red owl-item">
+                    2
+                </div>
+                <div class="number black owl-item">
+                    12
+                </div>
+                <div class="number red owl-item">
+                    3
+                </div>
+                <div class="number black owl-item">
+                    11
+                </div>
+                <div class="number red owl-item">
+                    4
+                </div>
+                <div class="number black owl-item">
+                    10
+                </div>
+                <div class="number red owl-item">
+                    5
+                </div>
+                <div class="number black owl-item">
+                    9
+                </div>
+                <div class="number red owl-item">
+                    6
+                </div>
+                <div class="number black owl-item">
+                    8
+                </div>
+                <div class="number red owl-item">
+                    7
+                </div>
+
+            </section>
+
+                <div id="content">
+
+                    <p>Faça login para jogar.</p>
+
+                    <button id="btn">Entrar</button>
+
+                </div>
+
+
+                <script src="jquery-3.7.1.min.js"></script>
+                <script src="dist/owl.carousel.min.js"></script>
+                <script src="script.js"></script>
 </body>
+
 </html>
