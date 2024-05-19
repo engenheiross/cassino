@@ -14,6 +14,7 @@ jQuery(function ($) {
 
     // Inicializando o Owl Carousel
     $('.owl-carousel').owlCarousel({
+        autoWidth: false,
         center: true,
         loop: true,
         margin: 0,

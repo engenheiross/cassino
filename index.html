@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,90 +11,101 @@
     <link rel="stylesheet" href="dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <section id="header">
-        <img id="logo" alt="little tigre">
+        <div id="brand">
+            <img id="logo" src="./img/little-tigre.webp" alt="little tigre">
+            <p>TIGRINHO</p>
+        </div>
         <nav>
             <ul>
                 <li><a>Início</a></li>
                 <li><a>Jogar</a></li>
-                <li><a>Contato</a></li>
+                <li><a>Quiz</a></li>
+                <li><a>Ajuda</a></li>
             </ul>
     </section>
 
-    <section id="jogo" class="owl-carousel owl-theme owl-loaded">
-        <div class="pointer"></div>
-        <div class="owl-stage-outer">
-            <div id="roleta" class="owl-stage">
-                <div class="number green owl-item">
-                    0
-                </div>
-                <div class="number black owl-item">
-                    14
-                </div>
-                <div class="number red owl-item">
-                    1
-                </div>
-                <div class="number black owl-item">
-                    13
-                </div>
-                <div class="number red owl-item">
-                    2
-                </div>
-                <div class="number black owl-item">
-                    12
-                </div>
-                <div class="number red owl-item">
-                    3
-                </div>
-                <div class="number black owl-item">
-                    11
-                </div>
-                <div class="number red owl-item">
-                    4
-                </div>
-                <div class="number black owl-item">
-                    10
-                </div>
-                <div class="number red owl-item">
-                    5
-                </div>
-                <div class="number black owl-item">
-                    9
-                </div>
-                <div class="number red owl-item">
-                    6
-                </div>
-                <div class="number black owl-item">
-                    8
-                </div>
-                <div class="number red owl-item">
-                    7
-                </div>
-
-            </div>
-        <div id="bet-section">
-            
-            <div id="status"></div>
-
-            <div id="bet">
-                <input id="bet-input" type="text">
-                <p id="balance">Saldo: $0 <span id="floating-text">+$50</span></p>
-            </div>
-            <div id="bet-options">
-                <button id="rodar" class="rodar red">1-7<br>x2</button>
-                <button id="rodar" class="rodar green">0<br>x14</button>
-                <button id="rodar" class="rodar black">8-14<br>x2</button>
-            </div>
+    <div id="main">
+        <div id="sidebar">
+            <div class="sidebar-item"><p>Página inicial</p></div>
+            <div class="sidebar-item"><p>Roleta</p></div>
+            <div class="sidebar-item"><p>Quiz</p></div>
+            <div class="sidebar-item"><p>Ajuda</p></div>
         </div>
+        <section id="jogo" class="owl-carousel owl-theme owl-loaded">
+            <div class="pointer"></div>
+            <div class="owl-stage-outer">
+                <div id="roleta" class="owl-stage">
+                    <div class="number green owl-item">
+                        0
+                    </div>
+                    <div class="number black owl-item">
+                        14
+                    </div>
+                    <div class="number red owl-item">
+                        1
+                    </div>
+                    <div class="number black owl-item">
+                        13
+                    </div>
+                    <div class="number red owl-item">
+                        2
+                    </div>
+                    <div class="number black owl-item">
+                        12
+                    </div>
+                    <div class="number red owl-item">
+                        3
+                    </div>
+                    <div class="number black owl-item">
+                        11
+                    </div>
+                    <div class="number red owl-item">
+                        4
+                    </div>
+                    <div class="number black owl-item">
+                        10
+                    </div>
+                    <div class="number red owl-item">
+                        5
+                    </div>
+                    <div class="number black owl-item">
+                        9
+                    </div>
+                    <div class="number red owl-item">
+                        6
+                    </div>
+                    <div class="number black owl-item">
+                        8
+                    </div>
+                    <div class="number red owl-item">
+                        7
+                    </div>
+
+                </div>
+                <div id="bet-section">
+
+                    <div id="status"></div>
+
+                    <div id="bet">
+                        <input id="bet-input" type="text">
+                        <p id="balance">Saldo: $0 <span id="floating-text">+$50</span></p>
+                    </div>
+                    <div id="bet-options">
+                        <button id="rodar" class="rodar red">1-7<br>x2</button>
+                        <button id="rodar" class="rodar green">0<br>x14</button>
+                        <button id="rodar" class="rodar black">8-14<br>x2</button>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
-        
-        
 
-
-    </section>
     <script src="jquery-3.7.1.min.js"></script>
     <script src="dist/owl.carousel.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
