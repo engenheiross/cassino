@@ -82,7 +82,11 @@
 }
 
 #bet-input {
+    font-size: 36px;
+}
 
+#balance {
+    font-size: 24px;
 }
 
 #bet-section {
