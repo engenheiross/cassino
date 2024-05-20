@@ -79,7 +79,7 @@ jQuery(function ($) {
             if (item == itemSelected) {
                 // Se o elemento atual for igual ao numero random, parar a roleta
                 $('#status').html("O número " + item + "foi rodado!");
-                if(item == 0) {
+                if(bet_color == "green" && item == 0) {
                     saldo += (bet_value * 14);
                     $balance.html("Saldo: $" + saldo + "<span id=\"floating-text\" class=\"plus\">+" + (bet_value * 14) + "</span>");
                 }
