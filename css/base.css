@@ -10,7 +10,7 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
 
-    background-image: linear-gradient(to left, #FF6500, #FF8A08);
+    background-image: linear-gradient(to right, #FFC100, #FF8A08);
 }
 
 #header {
@@ -82,10 +82,12 @@ a:hover {
     height: 4rem;
 
     padding-right: 8rem;
-    padding-left: 8rem;
+    
+    width: 16rem;
     
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #content {

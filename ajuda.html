@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game Tiger - Quiz</title>
+    <title>Game Tiger - Ajuda</title>
     <link rel="icon" href="./img/little-tigre.webp">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/sidebar.css">
-    <link rel="stylesheet" href="./css/quiz.css">
+    <link rel="stylesheet" href="css/ajuda.css">
 </head>
 <body>
     <div id="header">
@@ -15,7 +15,7 @@
             <img id="logo" src="./img/little-tigre.webp" alt="little tigre">
             <p>GAME TIGER</p>
         </div>
-        <div id="message">QUIZ</div>
+        <div id="message">AJUDA</div>
     </div>
 
     <div id="main">
@@ -30,11 +30,19 @@
                 <p>Ajuda</p>
             </div>
         </div>
-        <div id="quiz">
+
+        <div id="content">
+            <h1>Ajuda</h1>
+            
+            <div id="help-form">
+                <input id="nome" type="text" placeholder="Nome"></p>
+                <input id="email" type="text" placeholder="E-mail"></p>
+                <textarea id="help-message" placeholder="Mensagem"></textarea>
+                <button id="enviar" onclick="enviar()">Enviar</button>
+            </div>
         </div>
-    </div>
-    <script src="./quiz.js"></script>
-    <script src="jquery-3.7.1.min.js"></script>
-    <script src="sidebar.js"></script>
-</body>
-</html>
+
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="sidebar.js"></script>
+        <script src="ajuda.js"></script>
+    </body>

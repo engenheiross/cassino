@@ -1,115 +1,116 @@
 let perguntas = [
     {
-        "pergunta": "Qual o componente da bicicleta que converte o movimento das pernas em movimento das rodas?",
+        "pergunta": "Qual o objetivo principal ao jogar na roleta de um site de apostas de CS:GO?",
         "respostas": [
-            "Pedal",
-            "Guidão",
-            "Corrente",
-            "Quadro",
-            "Coroa"
+            "Ganhar skins",
+            "Ganhar dinheiro",
+            "Ganhar caixas de armas",
+            "Ganhar clipes de jogadas",
+            "Ganhar títulos no jogo"
         ],
-        "correta": "Corrente"
+        "correta": "Ganhar skins"
     },
     {
-        "pergunta": "Qual o nome da competição de ciclismo de estrada mais famosa do mundo?",
+        "pergunta": "Qual é a moeda mais comum usada para apostar nas roletas de sites de CS:GO?",
         "respostas": [
-            "Volta à França",
-            "Giro d'Italia",
-            "Tour de Portugal",
-            "Vuelta a España",
-            "Paris-Roubaix"
+            "Dólares",
+            "Créditos do site",
+            "Bitcoins",
+            "Rublos",
+            "Ouros do jogo" 
         ],
-        "correta": "Volta à França"
+        "correta": "Créditos do site"
     },
     {
-        "pergunta": "Qual é o tipo de bicicleta ideal para competições de velocidade em circuitos fechados?",
+        "pergunta": "O que significa 'CSGO skins' em termos de apostas?",
         "respostas": [
-            "Mountain Bike",
-            "Bicicleta de Trilha",
-            "Bicicleta Urbana",
-            "Bicicleta de Estrada",
-            "Bicicleta de Pista"
+            "Armas melhores",
+            "Estética das armas",
+            "Vantagens no jogo",
+            "Descontos no Steam",
+            "Acesso a novos mapas"
         ],
-        "correta": "Bicicleta de Pista"
+        "correta": "Estética das armas"
     },
     {
-        "pergunta": "Qual material é mais comum na fabricação de quadros de bicicleta de alta performance?",
+        "pergunta": "Qual dos seguintes métodos é frequentemente usado para depositar fundos em sites de apostas de CS:GO?",
         "respostas": [
-            "Aço",
-            "Ferro",
-            "Alumínio",
-            "Madeira",
-            "Carbono"
+            "Cartão de crédito",
+            "Transferência bancária",
+            "PayPal",
+            "Depósito de skins",
+            "Cheque"
         ],
-        "correta": "Carbono"
+        "correta": "Depósito de skins"
     },
     {
-        "pergunta": "Qual o nome do mecanismo que permite trocar as marchas na bicicleta?",
+        "pergunta": "Qual é o nome de um famoso site de roleta CS:GO?",
         "respostas": [
-            "Cambio",
-            "Freio",
-            "Catraca",
-            "Câmbio",
-            "Pedal"
+            "CSGOEmpire",
+            "RouletteStrike",
+            "SkinBets",
+            "BetSpin",
+            "CSGOLuck"
         ],
-        "correta": "Câmbio"
+        "correta": "CSGOEmpire"
     },
     {
-        "pergunta": "Qual o nome da competição de mountain bike que ocorre anualmente no deserto do Arizona, Estados Unidos?",
+        "pergunta": "Em que ano o mercado de apostas com skins de CS:GO começou a ganhar popularidade?",
         "respostas": [
-            "Red Bull Rampage",
-            "Crankworx",
-            "Cape Epic",
-            "Enduro World Series",
-            "Leadville Trail 100 MTB"
+            "2012",
+            "2013",
+            "2014",
+            "2015",
+            "2016"
         ],
-        "correta": "Leadville Trail 100 MTB"
+        "correta": "2014"
     },
     {
-        "pergunta": "Qual o nome do primeiro veículo de duas rodas movido por pedal?",
+        "pergunta": "O que representa o 'house edge' em uma roleta de site de apostas?",
         "respostas": [
-            "Penny-farthing",
-            "Triciclo",
-            "Tandem",
-            "Bicicleta de Carga",
-            "Boneshaker"
+            "A vantagem do jogador",
+            "A vantagem do site",
+            "A margem de lucro do jogador",
+            "A probabilidade de ganhar",
+            "O número de jogadores"
         ],
-        "correta": "Boneshaker"
+        "correta": "A vantagem do site"
     },
     {
-        "pergunta": "Qual o termo utilizado para descrever a prática de pedalar em conjunto com outros ciclistas?",
+        "pergunta": "Qual é a roleta mais comum em sites de apostas de CS:GO?",
         "respostas": [
-            "Convívio",
-            "Pelotão",
-            "Bando",
-            "Revoada",
-            "Comboio"
+            "Roleta europeia",
+            "Roleta americana",
+            "Roleta francesa",
+            "Roleta russa",
+            "Roleta de cores"
         ],
-        "correta": "Pelotão"
+        "correta": "Roleta de cores"
     },
     {
-        "pergunta": "Qual o nome da empresa que fabrica as bicicletas com o slogan 'Just Ride'?",
+        "pergunta": "Qual é a principal preocupação de segurança ao apostar em sites de CS:GO?",
         "respostas": [
-            "Trek",
-            "Specialized",
-            "Giant",
-            "Cannondale",
-            "Santa Cruz"
+            "Perder a conta do Steam",
+            "Roubo de identidade",
+            "Sites fraudulentos",
+            "Perder dinheiro",
+            "Perder skins"
         ],
-        "correta": "Santa Cruz"
+        "correta": "Sites fraudulentos"
     },
     {
-        "pergunta": "Qual o nome do tipo de bicicleta voltado para longas distâncias, com geometria confortável e diversos pontos de fixação para bagagem?",
+        "pergunta": "O que um jogador pode fazer para garantir que um site de apostas de CS:GO seja confiável?",
         "respostas": [
-            "Bicicleta de Carga",
-            "Bicicleta de Trilha",
-            "Bicicleta de Estrada",
-            "Bicicleta Híbrida",
-            "Bicicleta de Turismo"
+            "Verificar a licença",
+            "Perguntar a amigos",
+            "Verificar comentários online",
+            "Testar com pequenas apostas",
+            "Usar VPN"
         ],
-        "correta": "Bicicleta de Turismo"
+        "correta": "Verificar a licença"
     }
 ]
+
 
 let perguntaIndex = 0;
 let acertos = 0;
@@ -131,18 +132,13 @@ function criar_pergunta(perguntaObj) {
 
         var resposta = document.createElement("p");
         resposta.classList.add("resposta");
+        resposta.classList.add("enabled");
         if(perguntaObj.respostas[j] == perguntaObj.correta) { 
             resposta.setAttribute("id", "correta");
         }
         resposta.innerHTML = perguntaObj.respostas[j];
         resposta.addEventListener('click', function () {
             if(mostrandoResultado == false) {
-                if(this.innerHTML == perguntaObj.correta) { 
-                    this.style.backgroundColor = "green";
-                }
-                else {
-                    this.style.backgroundColor = "red";
-                }
                 mostrar_resultado(this.innerHTML);
             }
         });
@@ -155,8 +151,6 @@ function criar_pergunta(perguntaObj) {
 
     novaPergunta.appendChild(respostas);
     campoDePerguntas.appendChild(novaPergunta);
-
-    document.getElementById("correta").style.backgroundColor = "#C40C0C";
 
 
 }
@@ -191,6 +185,7 @@ function mostrar_resultado(answer) {
     respostas = document.getElementById("respostas").children;
     console.log(respostas);
     for (i = 0; i < respostas.length; i++) {
+        respostas[i].classList.remove("enabled");
         if (respostas[i].innerHTML == answer && respostas[i].id != "correta") {
             wrongmark = document.createElement("img");
             wrongmark.id = "check";
@@ -248,14 +243,11 @@ function finalizar_teste() {
     else {
         nivel = "<span class=\"vermelho\">Ruim</span>";
     }
-    campoDePerguntas.innerHTML += "<h3>Seu conhecimento em Bicicletas é " + nivel + "</h3>"
+    campoDePerguntas.innerHTML += "<h3>Seu conhecimento sobre cassinos é " + nivel + "</h3>"
 
-    botao1 = document.createElement("button");
-    botao1.innerHTML = "Voltar";
-    botao1.id = "botao1";
-    botao1.onclick = function () { document.location.href = "index.html"; }
-
-    campoDePerguntas.appendChild(botao1);
+    if(acertos / perguntas >= 0.6) {
+        campoDePerguntas.innerHTML += "<h4>Você ganhou <span class=\"verde\">$" + acertos * 100 + "</span> para apostar na roleta!"
+    }
 
     console.log(acertos);
 }

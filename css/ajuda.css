@@ -1,0 +1,17 @@
+textarea {
+    height: 8rem;
+}
+
+#help-form {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    gap: 10px;
+    padding: 1rem;
+
+}
+
+#help-form input {
+    font-size: 24px;
+}
+

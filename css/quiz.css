@@ -11,7 +11,8 @@
     height: 20%;
     display: flex;
     align-items: center;
-    background-color: #FF8A08;
+    background-color: rgb(40, 40, 40);
+    color: white;
     padding: 20px;
 
 }
@@ -19,18 +20,18 @@
     width: 100%;
     background-color: #C40C0C;
 
+    border-top: 2px solid;
+    cursor: pointer;
     transition: 1s;
 }
-.resposta:hover {
+.resposta.enabled:hover {
     background-color: #FF8A08;
+    cursor: pointer;
 }
 .respostas {
     width: 100%;
     
 
-}
-.respostas:hover{
-    cursor: pointer;
 }
 .respostas p, input {
     width: 100%;
@@ -49,10 +50,11 @@
 #correta {
     background-color: #C40C0C;
 }
-
-#correta:active {
-    background-color: green;
+#correta.enabled:hover {
+    background-color: #FF8A08;
+    cursor: pointer;
 }
+
 #botoes {
     display: flex;
 }
@@ -60,6 +62,7 @@
     visibility: visible;
     display: flex;
     font-size: 16px;
+    margin-top: 2rem;
     background-color: #C40C0C;
     padding: 20px;
 }
@@ -76,7 +79,6 @@ h1 {
 #quiz {
     display: flex;
     flex-direction: column;
-    background-color: #FF6500;
 }
 /*#quiz h3 {
 
