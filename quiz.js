@@ -123,7 +123,7 @@ let campoDePerguntas = document.getElementById("quiz")
 
 function criar_pergunta(perguntaObj) {
 
-    const novaPergunta = document.createElement("div");
+    const novaPergunta = document.createElement("div"); 
     novaPergunta.innerHTML = "<div class=\"perguntas\">" + perguntaObj.pergunta + "</div>"
     const respostas = document.createElement("div");
     respostas.classList.add("respostas");

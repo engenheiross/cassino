@@ -1,3 +1,10 @@
+h1 {
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #perguntas {
     display: flex;
     justify-content: flex-start;
